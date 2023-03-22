@@ -26,11 +26,11 @@ body {
   height: 50px;
   margin-bottom: 20px;
   background: linear-gradient(to right, #069e9f, #035353);
-  width: 100%;
+  width: calc(100% + 80px);
   position: fixed;
   top: 0;
-  width: 100%;
   z-index: 100;
+  margin-left: -40px;
 }
 .header_pt1 {
   float: left;
@@ -52,8 +52,9 @@ body {
   float: left;
   height: 90px;
   background-color: rgba(226, 226, 226, 0.9);
-  width: 100%;
+  width: calc(100% + 80px);
   color: black;
+  margin-left: -40px;
 }
 .carousel-center {
   margin: auto;
